@@ -5,7 +5,7 @@ import app from '../firebase/firebase.init';
 
 const auth = getAuth(app);
 
-const LoginBootsrap = () => {
+const LoginBootstrap = () => {
     const [success, setSuccess] = useState(false);
     const [userEmail, setUserEmail] = useState('');
     
@@ -71,4 +71,4 @@ const LoginBootsrap = () => {
     );
 };
 
-export default LoginBootsrap;
+export default LoginBootstrap;
